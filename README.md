@@ -74,7 +74,7 @@ Three contributions sit on top of the model comparison:
 ot-ics-threat-detection/
 │
 ├── README.md
-├── Dissertation.pdf                  ← Full dissertation (add when released)
+├── Dissertation.pdf                  ← Full dissertation (will be added when released)
 │
 └── scripts/
    ├── LOAD_NETWORK.py               ← SWaT network traffic loading

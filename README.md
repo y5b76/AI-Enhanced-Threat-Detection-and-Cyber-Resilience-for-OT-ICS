@@ -77,7 +77,7 @@ ot-ics-threat-detection/
 ├── README.md
 ├── Dissertation.pdf                  ← Full dissertation (add when released)
 │
-├── **[scripts](#)**
+├── **[scripts](#)** (https://github.com/y5b76/AI-Enhanced-Threat-Detection-and-Cyber-Resilience-for-OT-ICS/tree/main/scripts)
 │   ├── LOAD_NETWORK.py               ← SWaT network traffic loading
 │   ├── compute_resilience_metrics.py ← MTTD, MTTR, miss rate
 │   ├── compute_ras.py                ← Resilience-Accuracy Score

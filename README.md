@@ -22,9 +22,8 @@ Three contributions sit on top of the model comparison:
 - ✅ **Quantitative SHAP evaluation** - explanations scored for faithfulness and stability, not just plotted
 - ✅ **MITRE ATT&CK for ICS / STIX pipeline** - detections mapped into structured cyber threat intelligence indicators
 - ✅ **Four models, three datasets** - Random Forest, CNN, Isolation Forest and LSTM Autoencoder on SWaT, WaDi and BATADAL
-- ✅ **Live proof-of-concept testbed** - OpenPLC v3 in Docker with a simulated tank and pump process and an attacker container
 
-> 📄 **[Dissertation PDF →](#)** *(add link once the final version is cleared for release)*
+> 📄 **[Dissertation PDF →](#)** *(link will be added once the project has been marked)*
 
 ---
 
@@ -104,7 +103,6 @@ ot-ics-threat-detection/
 | **SHAP**                      | Explanations, with the explainer matched to each architecture     |
 | **STIX 2**                    | Threat intelligence indicator generation                          |
 | **Google Colab (T4 GPU)**     | All SHAP and XAI computation                                      |
-| **OpenPLC v3 + Docker**       | Live testbed (Windows 11, Docker Desktop, WSL2)                   |
 
 > **Why two Python environments?** Python 3.14 has no compatible TensorFlow wheels, so anything touching TensorFlow runs in a separate 3.12 environment.
 
@@ -178,28 +176,11 @@ Explanations were evaluated quantitatively using the framework from Nauta et al.
 
 ---
 
-## 🧪 Live Demonstration Testbed
-
-A small Docker-based environment shows the detection idea end to end:
-
-- **OpenPLC v3 Runtime** running in Docker
-- **Python tank and pump stub** simulating the physical process
-- **Attacker container** that manipulates the process
-
-> ⚠️ **This is an illustrative proof of concept.** It uses a separately fitted small model and is not part of the reported dissertation results above.
-
-| Fig 1 - Testbed topology | Fig 2 - Attack and detection |
-| --- | --- |
-| *(add screenshot)* | *(add screenshot)* |
-
----
-
 ## ⚠️ Limitations
 
 - Absolute F1 scores are low on all three datasets, and no model dominates.
 - The network traffic analytics contribution is limited to SWaT.
 - Isolation Forest explanations are not reliable under SHAP.
-- The live demo uses a simulated process, not real plant hardware.
 - Results depend on the specific attack scenarios in each public dataset.
 
 ---
@@ -228,4 +209,4 @@ MSc Cyber Security, Keele University (2026)
 
 ---
 
-*This project uses publicly available research datasets for educational and portfolio purposes. The testbed runs entirely in local containers. No real industrial infrastructure was targeted.*
+*This project uses publicly available research datasets for educational and portfolio purposes. No real industrial infrastructure was targeted.*

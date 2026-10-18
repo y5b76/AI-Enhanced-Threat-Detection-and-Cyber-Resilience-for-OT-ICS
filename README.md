@@ -76,18 +76,15 @@ ot-ics-threat-detection/
 ├── README.md
 ├── Dissertation.pdf                  ← Full dissertation (add when released)
 │
-├── scripts/
-│   ├── LOAD_NETWORK.py               ← SWaT network traffic loading
-│   ├── compute_resilience_metrics.py ← MTTD, MTTR, miss rate
-│   ├── compute_ras.py                ← Resilience-Accuracy Score
-│   ├── export_for_shap.py            ← Model and data export for XAI
-│   ├── xai_evaluation_colab.py       ← SHAP faithfulness and stability (Colab GPU)
-│   ├── extract_shap_attributions.py  ← Attribution extraction
-│   └── mitre_attack_stix_mapping.py  ← ATT&CK for ICS to STIX pipeline
-│
-├── testbed/                          ← OpenPLC v3 demo (Docker)
-│
-└── screenshots/                      ← Result figures and demo captures
+└── scripts/
+   ├── LOAD_NETWORK.py               ← SWaT network traffic loading
+   ├── compute_resilience_metrics.py ← MTTD, MTTR, miss rate
+   ├── compute_ras.py                ← Resilience-Accuracy Score
+   ├── export_for_shap.py            ← Model and data export for XAI
+   ├── xai_evaluation_colab.py       ← SHAP faithfulness and stability (Colab GPU)
+   ├── extract_shap_attributions.py  ← Attribution extraction
+   └── mitre_attack_stix_mapping.py  ← ATT&CK for ICS to STIX pipeline
+
 ```
 
 ---

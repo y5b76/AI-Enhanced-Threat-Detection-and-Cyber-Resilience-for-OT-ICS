@@ -23,7 +23,7 @@ Three contributions sit on top of the model comparison:
 - ✅ **MITRE ATT&CK for ICS / STIX pipeline** - detections mapped into structured cyber threat intelligence indicators
 - ✅ **Four models, three datasets** - Random Forest, CNN, Isolation Forest and LSTM Autoencoder on SWaT, WaDi and BATADAL
 
-> 📄 **[Dissertation PDF →](./AI-Enhanced_Threat_Detection_and_Cyber_Resilience_Dissertation.pdf)** 
+> 📄 **[Dissertation PDF →](./AI-Enhanced Threat Detection and Cyber Resilience Dissertation.pdf)** 
 
 ---
 
